@@ -575,6 +575,9 @@ Available modules:
                          }
                          (0 - 800: white, 800-900: yellow, >900 - red)
                          
+                          Confiuration parameters:
+                             - format : format 
+                         
                          Format of status string placeholders:
                              {down} - download
                              {total} - total
