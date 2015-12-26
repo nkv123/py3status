@@ -74,7 +74,7 @@ ethernet eth0 {
     # if you use %speed, i3status requires root privileges
     format_up = "E: %ip"
     format_down = ""
-    on_click 1 = "exec wicd-gtk"
+    on_click 1 = "exec wicd-gtk --no-tray" #dont make tray
     on_click 3 = "exec killall wicd-gtk"
 }
 
